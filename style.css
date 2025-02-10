@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Clase para cambiar el color del header */
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.247); /* Blanco semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+/* Header inicial */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0); /* Inicialmente transparente */
+    transition: background 0.3s linear;
+}
+
+/* Enlaces dentro del header */
+header a, h1 {
+    color: white; /* Color inicial del texto */
+    text-decoration: none;
+    transition: color 0.3s linear; /* Transición suave del color del texto */
+}
+
+#typing::after {
+    content: "|";
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.content-links a{
+    margin: 0 15px; /* Aumenta el espacio horizontal entre los enlaces */
+    text-decoration: none; /* Opcional: quita el subrayado */
+}
+
+.item-link{
+    margin: 0 0;
+}
+
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Sección de presentación */
+.presentation {
+    background: radial-gradient(circle at top center, black, #2D0B5D);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 3.5rem; /* Ajuste para no tapar el header */
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Imagen de perfil con sombra interior */
+.img-profile {
+    border-radius: 50%;
+    width: 350px; /* Ajustar el tamaño */
+    height: 400px;
+    object-fit: cover;
+}
+
+.wave-emoji {
+    display: inline-block;
+    animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(20deg); }
+    40% { transform: rotate(0); }
+    60% { transform: rotate(20deg); }
+    80% { transform: rotate(0); }
+}
+
+/* Ajuste de descripción */
+.description {
+    width: 60%;
+    margin-top: 20px;
+}
+
+/* Sección de proyectos */
+.projects {
+    background: radial-gradient(circle at top, #7F4FE8, white);
+    padding: 100px 0;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Efecto de presentación primero */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
