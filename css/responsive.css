@@ -1,0 +1,75 @@
+@media (max-width: 1000px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header.scrolled {
+        background-color: rgba(255, 255, 255, 0.247); /* Blanco semitransparente */
+        backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    }
+    /* Header inicial */
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0); /* Inicialmente transparente */
+        transition: background 0.3s linear;
+    }
+
+    .title{
+        width: auto;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    .content{
+        width: 70%;
+    }
+
+    .content-links{
+        display: none;
+    }
+
+    .btn-bar{
+        display: block;
+        color: white;
+    }
+
+    .presentation{
+        height: 100vh;
+        padding-top: 8rem;
+    }
+
+    .content-responsive{
+        display: block;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .img-profile{
+        width: 200px;
+        height: 250px;
+    }
+
+    .description{
+        line-height: 23px;
+        margin-bottom: 10rem;
+    }
+
+    .subtitle{
+        line-height: 34px;
+    }
+
+
+
+
+}
