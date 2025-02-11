@@ -42,45 +42,45 @@
 
 
     /* Estilos para el botón del menú */
-.btn-bar {
-    font-size: 30px;
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px;
-    color: #fff;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+    .btn-bar {
+        font-size: 30px;
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
 
-.btn-bar:hover {
-    background-color: #555;
-}
+    .btn-bar:hover {
+        background-color: #555;
+    }
 
-/* Estilos para el menú */
-.content-links-responsive {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-}
+    /* Estilos para el menú */
+    .content-links-responsive {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
 
-.content-links-responsive a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+    .content-links-responsive a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
 
-.content-links-responsive a:hover {
-    background-color: #555;
-}
+    .content-links-responsive a:hover {
+        background-color: #555;
+    }
 
-/* Mostrar el menú cuando está activo */
-.content-links-responsive.active {
-    display: flex;
-}
+    /* Mostrar el menú cuando está activo */
+    .content-links-responsive.active {
+        display: flex;
+    }
     .btn-bar{
         display: block;
         color: white;
@@ -110,6 +110,48 @@
     .subtitle{
         line-height: 34px;
     }
+
+
+
+    /* Style Proyectos Responsive*/
+    .projects {
+        height: auto;
+        padding: 80px 0;
+    }
+    
+    .content-projects {
+        width: 90%;
+    }
+    
+    .projects h2 {
+        font-size: 2rem;
+    }
+    
+    .projects p {
+        font-size: 1rem;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .project-card h3 {
+        font-size: 1.4rem;
+    }
+
+    .project-card p {
+        font-size: 0.95rem;
+    }
+
+    .project-card .btn {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+    
 
     /*Style Tech*/
     .tech{
