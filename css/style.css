@@ -41,6 +41,10 @@ header a, h1 {
     50% { opacity: 0; }
 }
 
+.btn-bar{
+    display: none;
+}
+
 .content-links a{
     margin: 0 15px; /* Aumenta el espacio horizontal entre los enlaces */
     text-decoration: none; /* Opcional: quita el subrayado */
