@@ -137,7 +137,7 @@ header a, h1 {
 
 /* Fondo con degradado suave */
 .tech {
-    background: radial-gradient(circle at top, #d7c8f7, #ffffff);
+    background: radial-gradient(circle at top, #d7c8f7, white);
     padding: 50px 0;
     text-align: center;
     margin: 0;
@@ -165,7 +165,7 @@ header a, h1 {
 .category {
     width: 45%;
     min-width: 300px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
