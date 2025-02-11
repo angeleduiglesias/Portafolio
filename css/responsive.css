@@ -70,8 +70,8 @@
     }
 
     /*Style Tech*/
-    .tech, .content-tech{
-        background-color: white;
+    .tech{
+        background: white;
     }
 
     .items {
@@ -81,7 +81,10 @@
     
     .category {
         width: 80%;
+        box-shadow: 0px 4px 10px rgba(215, 200, 247, 0.8);
     }
+
+    
 
 
     /*Style Footer*/
