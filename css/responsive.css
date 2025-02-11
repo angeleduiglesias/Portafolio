@@ -69,7 +69,34 @@
         line-height: 34px;
     }
 
+    /*Style Footer*/
+    .content-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 
+    .footer-text {
+        font-size: 0.8rem;
+    }
 
+    .social-media {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-media a {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .footer-text {
+        font-size: 0.75rem;
+    }
+
+    .social-media a {
+        width: 30px;
+        height: 30px;
+    }
 
 }
