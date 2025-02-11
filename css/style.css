@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 
 /* Clase para cambiar el color del header */
 header.scrolled {
@@ -132,29 +136,94 @@ header a, h1 {
 
 
 
-/* Style Section Tech */
-.tech{
-    width: 100%;
-    background-color: transparent;
+/* Fondo con degradado suave */
+.tech {
+    background: radial-gradient(circle at top, #d7c8f7, #ffffff);
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    display: block;
 }
 
-.content-tech{
+/* Contenedor principal */
+.content-tech {
     width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    padding: 10px 0;
+    margin: auto;
 }
-.items{
+
+/* Título */
+.content-tech h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de categorías */
+.items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
+/* Categoría de lenguajes y herramientas */
+.category {
+    width: 45%;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+/* Títulos de cada categoría */
+.category h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
 
-.content-tech .lenguage, .herramientas{
+/* Contenedor de tarjetas */
+.cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
+
+/* Tarjetas individuales */
+.card {
+    background: white;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Iconos dentro de las tarjetas */
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Texto de cada tarjeta */
+.card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Efecto hover en tarjetas */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+
+
+
 
 
 
