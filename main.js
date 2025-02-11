@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (title) title.style.color = "black"; // Cambia el color del h1 a negro
         } else {
             let opacity = (scrollY - startFade) / (endFade - startFade); // Interpolación
-            header.style.background = `rgba(255, 255, 255, ${opacity * 0.8})`; // Aparece progresivamente
+            header.style.background = `rgba(255, 255, 255, ${opacity * 0.5})`; // Aparece progresivamente
 
             // Cambio gradual del color de texto
             let textColor = Math.round(255 * opacity); // Calcula el color entre blanco y negro
