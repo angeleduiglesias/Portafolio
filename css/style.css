@@ -44,7 +44,7 @@ header a, h1 {
     50% { opacity: 0; }
 }
 
-.btn-bar{
+.btn-bar, .content-links-responsive{
     display: none;
 }
 

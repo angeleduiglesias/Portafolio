@@ -9,6 +9,7 @@
         background-color: rgba(255, 255, 255, 0.247); /* Blanco semitransparente */
         backdrop-filter: blur(10px); /* Efecto de desenfoque */
     }
+
     /* Header inicial */
     header {
         width: 100%;
@@ -39,6 +40,48 @@
         display: none;
     }
 
+
+    /* Estilos para el botón del menú */
+.btn-bar {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-bar:hover {
+    background-color: #555;
+}
+
+/* Estilos para el menú */
+.content-links-responsive {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-links-responsive a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.content-links-responsive a:hover {
+    background-color: #555;
+}
+
+/* Mostrar el menú cuando está activo */
+.content-links-responsive.active {
+    display: flex;
+}
     .btn-bar{
         display: block;
         color: white;
