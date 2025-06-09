@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: portafolio-web-green-beta.vercel.app
+Token: dfef75cefd9f96bc627c883a92fa48875a3e936e513e3bed0a1c5bc77d825101
